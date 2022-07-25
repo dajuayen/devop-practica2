@@ -1,0 +1,12 @@
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_connection=local
+
+[docker]
+localhost
+
+[podman]
+localhost
+
+[ansiblecontroller]
+localhost
