@@ -2,7 +2,7 @@
 ansible_python_interpreter=/usr/bin/python3
 
 [controller]
-gestor.jadpb.lab ansible_connection=local
+gestor ansible_connection=local
 
 [client]
-worker1.jadpb.lab ansible_user=ansible
+worker1 ansible_user=ansible
