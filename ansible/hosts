@@ -8,7 +8,7 @@ gestor ansible_connection=local
 
 
 [haproxy]
-haproxy
+worker1
 
 
 [apache]
@@ -17,6 +17,6 @@ apache2
 
 
 [webapp]
-haproxy
+worker1
 apache1 
 apache2
