@@ -1,12 +1,8 @@
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
-ansible_connection=local
 
-[docker]
-localhost
+[controller]
+gestor.jadpb.lab ansible_connection=local
 
-[podman]
-localhost
-
-[ansiblecontroller]
-localhost
+[client]
+worker1.jadpb.lab ansible_user=ansible
